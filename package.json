@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jlyon87/bank#readme",
   "dependencies": {
     "express": "^4.15.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "twitter": "^1.7.1"
   }
 }
