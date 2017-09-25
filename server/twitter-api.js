@@ -8,7 +8,7 @@ var client = new Twitter({
 	access_token_secret: config.access_token_secret,
 });
 
-// @conky5, @mrJus71n
+// {follow: ["conky5", "mrJus71n"]} // F paid twitter api
 var stream = client.stream("statuses/filter", {track: "javascript"});
 stream.on("data", function(event) {
 	console.log(event && event.text);
